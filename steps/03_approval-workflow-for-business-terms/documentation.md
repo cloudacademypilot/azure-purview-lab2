@@ -123,5 +123,5 @@ All the completed approvals and tasks are moved to this tab in Requests and Appr
 - **Delete a workflow:** To delete a workflow, select the workflow and then select Delete in the top menu.
 
 
-[ ⏮️ Previous Module](../05_maintaining-glossary-by-creating-and-importing-terms/documentation.md) - [Next Module ⏭️](../07_create-classification-rule-and-scan-rule-set/documentation.md)
+[ ⏮️ Previous Module](../02_maintaining-glossary-by-creating-and-importing-terms/documentation.md) - [Next Module ⏭️](../04_create-classification-rule-and-scan-rule-set/documentation.md)
 
