@@ -154,4 +154,4 @@ In this demo, we will see how to build a Lineage Graph using lineage metadata co
       - **_Process_**: An activity or transformation performed on a dataset is called a process. 
         _For example_, Azure Data Factory Copy activity or a Data Share snapshot. In the lineage section of Purview, processes are represented by round-edged boxes.
 
-[ ⏮️ Previous Module](../07_create-classification-rule-and-scan-rule-set/documentation.md) - [Next Module ⏭️](../09_view-data-insights/documentation.md)
+[ ⏮️ Previous Module](../04_create-classification-rule-and-scan-rule-set/documentation.md) - [Next Module ⏭️](../05_view-data-insights/documentation.md)
