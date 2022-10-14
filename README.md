@@ -6,14 +6,11 @@ By connecting to data across your on-premises, multi-cloud, and software-as-a-se
 It identifies and classifies sensitive data and provides end to end linage.
 Data consumers can discover data across your organization, and data administrators are able to audit, secure, and ensure the right use of your data.
 
-### The following are the main topics covered in the lab:
-1. [Creating collection and adding role assignments](./steps/01_creating-collection-and-adding-role-assignments/documentation.md)
-2. [Registering and Scanning SQL DB Source and ADLS Gen2 Account](./steps/02_registering-and-scanning-sql-db-source-and-adls-gen2-account/documentation.md)
-3. [Registering and Scanning an on-premises SQL Server Instance](./steps/03_registering-and-scanning-an-on-premises-sql-server-instance/documentation.md)
-4. [Searching and Editing Assets](./steps/04_searching-and-editing-assets/documentation.md)
-5. [Maintaining Glossary by creating and importing terms](./steps/05_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
-6. [Approval Workflow for Business Terms](./steps/06_approval-workflow-for-business-terms/documentation.md)
-7. [Create Classification rule and Scan rule set](./steps/07_create-classification-rule-and-scan-rule-set/documentation.md)
-8. [Track Data Lineage](./steps/08_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
-9. [View Data Insights](./steps/09_view-data-insights/documentation.md)
-10. [Create and Manage Data Policy](./steps/10_create-and-manage-data-policy/documentation.md)
+### The following are the main topics covered in this lab:
+1. [Registering and Scanning ADLS Gen2 Account](./steps/01_registering-and-scanning-adls-gen2-account/documentation.md)
+2. [Maintaining Glossary by creating and importing terms](./steps/02_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
+3. [Approval Workflow for Business Terms](./steps/03_approval-workflow-for-business-terms/documentation.md)
+4. [Create Classification rule and Scan rule set](./steps/04_create-classification-rule-and-scan-rule-set/documentation.md)
+5. [Track Data Lineage](./steps/05_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
+6. [View Data Insights](./steps/06_view-data-insights/documentation.md)
+7. [Create and Manage Data Policy](./steps/07_create-and-manage-data-policy/documentation.md)
