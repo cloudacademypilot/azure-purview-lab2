@@ -91,4 +91,4 @@ A newly created policy is in the draft state and once published the Policy will 
     
 > After making changes to a policy, there is no need to publish it again for it to take effect if the data source(s) continues to be the same.
 
-[ ⏮️ Previous Module](../09_view-data-insights/documentation.md)
+[ ⏮️ Previous Module](../06_view-data-insights/documentation.md)
