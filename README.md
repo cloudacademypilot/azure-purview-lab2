@@ -1,4 +1,4 @@
-# Azure-Purview-Labs
+# Learning Microsoft Purview Advance Features
 
 ## What is Azure Purview?
 Azure Purview is a data governance service that helps you manage and govern your data landscape. 
