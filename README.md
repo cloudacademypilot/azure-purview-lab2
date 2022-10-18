@@ -11,6 +11,6 @@ Data consumers can discover data across your organization, and data administrato
 2. [Maintaining Glossary by creating and importing terms](./steps/02_maintaining-glossary-by-creating-and-importing-terms/documentation.md)
 3. [Approval Workflow for Business Terms](./steps/03_approval-workflow-for-business-terms/documentation.md)
 4. [Create Classification rule and Scan rule set](./steps/04_create-classification-rule-and-scan-rule-set/documentation.md)
-5. [Track Data Lineage](./steps/05_track-data-lineage-by-connecting-azure-data-factory/documentation.md)
+5. [Exploring Data Lineage by connecting Azure Data Factory](./steps/05_exploring-data-lineage-by-connecting-azure-data-factory/documentation.md)
 6. [View Data Insights](./steps/06_view-data-insights/documentation.md)
 7. [Create and Manage Data Policy](./steps/07_create-and-manage-data-policy/documentation.md)
