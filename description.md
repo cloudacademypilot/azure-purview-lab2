@@ -4,10 +4,13 @@ In this lab, you will taken through a series of steps to implement key features 
 
 The objective of this lab is to provide participants solid understanding and experience of using Azure Purview.  The following are the main topics covered in the lab. 
 
-1. Create Microsoft Purview account.
-2. Create Collections, Register Sources and scan the assets.
-3. Adding Glossary terms, classification rules and scan rule sets.
-4. Adding Data Policy to the assets. 
+1. Registering and Scanning ADLS Gen2 Account
+2. Maintaining Glossary by creating and importing terms
+3. Approval Workflow for Business Terms
+4. Create Classification rule and Scan rule set
+5. Track Data Lineage
+6. View Data Insights
+7. Create and Manage Data Policy
 
 ### Intended Audience
 
