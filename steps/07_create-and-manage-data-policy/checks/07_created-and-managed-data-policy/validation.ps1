@@ -1,7 +1,8 @@
 param(
     [string]
     $Resourcegroupname
-)$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.Purview/accounts
+)
+$WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype Microsoft.Purview/accounts
 $WorkSpacename = $WorkSpace.Name
 $token = (Get-AzAccessToken -Resource "https://purview.azure.net").Token
 $headers = @{ Authorization = "Bearer $token" }
