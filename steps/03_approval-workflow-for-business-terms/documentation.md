@@ -96,7 +96,10 @@ This step will take you through the creation and management of approval workflow
 
 	![emailApproved](./assets/17_email_approved.jpg "email approved")
 
-    > Likewise, we can create workflows for updating, deleting and importing terms too.
+```diff
+!	Likewise, we can create workflows for updating, deleting and importing terms too.
+```
+
 
 ### B. Workflow Runs
 
