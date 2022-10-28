@@ -86,14 +86,14 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
     ![adlsgen2](./assets/4-2_adls_gen2.jpg "adlsgen2")
 
-3. Fill in the **name** as `ADLS-Gen2`, Select the **Azure subscription**, **Storage account name**, **Collection**, and click **Register**.
+3. Fill in the **name**, Select the **Azure subscription**, **Storage account name**, **Collection**, and click **Register**.
 
     ![registeradls](./assets/4-3_register_adls.jpg "registeradls")
 
 
 ### Scan a Source with the Microsoft Purview Managed Identity
 
-1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button. Fill in the **scan name** as `Scan-adls`.
+1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button. Fill in the **scan name**.
 
     ![scan](./assets/4-5_scan.jpg "scan")
 
