@@ -51,7 +51,7 @@ which helps to relate technical metadata to business metadata.
 	 Name | ``Contoso Parent``
    Definition | ``This will be the parent term``
    Acronym | ``CP``
-   Resource Name | ``Microsoft Purview``
+   Resource Name | ``Azure Purview``
    Resource Link | ``https://aka.ms/Azure-Purview``
 
    ![name](./assets/6-4_name.jpg "name")
@@ -153,19 +153,19 @@ which helps to relate technical metadata to business metadata.
 
 1. Perform a wildcard search by typing asterisk (**\***) into the search bar and hitting the Enter key to submit the query. Click on an asset title (e.g. `QueriesByState`) to view the details.
 
-   ![search](./assets/6-20_search.jpg "search")
+   ![qbs](./assets/2-1_qbs.jpg "qbs")
 
 2. Click **Edit**.
 
-   ![edit](./assets/6-21_edit.jpg "edit")
+   ![edit](./assets/2-2_edit.jpg "edit")
 
 3. Open the **Glossary terms** drop-down menu and select a glossary term (e.g. `Contoso Child`). Click **Save**.
 
-   ![save](./assets/6-22_save.jpg "save")
+   ![glossaryTerms](./assets/2-3_glossary_terms.jpg "glossary terms")
 
 4. Click on the hyperlinked term name to view the glossary term details.
 
-   ![hyperlink](./assets/6-23_hyperlink.jpg "hyperlink")
+   ![hyperlink](./assets/2-4_hyperlink.jpg "hyperlink")
 
 5. Click **Refresh** to view the **Catalog assets** the term is assigned to.
 
@@ -203,17 +203,17 @@ which helps to relate technical metadata to business metadata.
 
    1. Perform a wildcard search by typing asterisk * into the search bar and press Enter key to submit the query.
    
-      ![search](./assets/6-20_search.jpg "search")
+      ![qbs](./assets/2-1_qbs.jpg "qbs")
       
    2. Click **Edit**.
    
-      ![edit](./assets/6-21_edit.jpg "edit")
+      ![edit](./assets/2-2_edit.jpg "edit")
 
-   3. Open the Classification drop-down and unselect World cities, Glossary terms drop-down and unselect a glossary term (e.g. Contoso Child). Click Save.
+   3. Open the Glossary terms drop-down and unselect a glossary term (e.g. Contoso Child). Click Save.
 
-      ![unselect](./assets/6-25_unselect.jpg "unselect")
+      ![unassign](./assets/2-5_unassign.jpg "unassign")
 
-   4. Click on the hyperlinked term name to view the glossary term. You can see that **No Glossary Terms** available.
+   4. Now under glossary term in the details page, you can see that **No Glossary Terms** are available.
 
       ![check](./assets/6-26_check.jpg "check")
       
