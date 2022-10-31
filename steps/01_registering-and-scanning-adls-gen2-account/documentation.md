@@ -105,7 +105,7 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Data Map** > **Sources**, and within the Azure Data Lake Storage Gen2 tile, click the **New Scan** button. Fill in the **scan name**.
 
-    ![scan](./assets/4-5_scan.jpg "scan")
+    ![scanSource](./assets/1-1_scan_source.jpg "scan source")
 
 2. Click **Test connection** to ensure the Microsoft Purview managed identity has the appropriate level of access to read the Azure Data Lake Storage Gen2 account. If successful, click **Continue**.
 
@@ -129,7 +129,7 @@ This Step is already done for you. To confirm the file is present inside ADLS Ge
 
 7. To monitor the progress of the scan run, click **View Details**.
 
-    ![details](./assets/4-16_details.jpg "details")
+    ![viewDetails](./assets/1-7_view_details.jpg "view details")
 
 8. Click **Refresh** to periodically update the status of the scan. Note: It will take approximately 5 to 10 minutes to complete.
 
