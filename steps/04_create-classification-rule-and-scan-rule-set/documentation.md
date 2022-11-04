@@ -9,7 +9,7 @@ In this module you will learn how to create a custom classification.
 ## Prerequisites
 
 * An *Azure account* with an *active subscription*.
-* A **twitter_handles.csv** and **twitter_handles.pparquet** files in the **pvlab{randomid}adls** storage account. 
+* A **twitter_handles.csv** and **twitter_handles.parquet** files in the **pvlab{randomid}adls** storage account. 
 * User should have *Data Curator*, *Data Reader* and *Data Source Admin* Roles.
 
 ## Objectives
@@ -61,7 +61,7 @@ In this module you will learn how to create a custom classification.
 
     ![setName](./assets/7-5_set_name.jpg "set name")
 
-3. Download a copy of **twitter_handles.csv** file from the **pvlab{randomid}adls** storage account and save it.
+3. Now, go to **Azure Portal**. Navigate to **pvlab{randomid}adls** storage account. Download a copy of **twitter_handles.csv** file and save it.
    
    **pvlab{randomid}adls** -> **raw** -> **Twitter** folder -> **twitter_handles.csv** -> **Download**
 
