@@ -39,7 +39,7 @@ This step will take you through the creation and management of approval workflow
     Here, let’s select **Create glossary term** using workflow.
 
   	![createWorkflow](./assets/3_create_workflow.jpg "create workflow")
-6. Next, enter a workflow name and optionally add a description. Then select **Continue**.
+6. Next, enter a **workflow name** as **`Create glossary term`** and optionally add a description. Then select **Continue**.
 
   	![createCred](./assets/4_create_cred.jpg "create cred")
 7. You'll now be presented with a canvas where the selected template is loaded by default.
@@ -56,47 +56,72 @@ This step will take you through the creation and management of approval workflow
 
 	  * If rejected:
 		  Send email to requestor that their request is denied.
-8. The default template can be used by populating the approval type to **`Approve/Reject- First to Respond`** and approver's email address i.e., **User’s email address** in Start and Wait for approval Connector.
+8. We shall proceed altering the default template by populating the **Start and Wait for approval Connector** with the following.
 
-  	![approval](./assets/6_approval.jpg "approval")
+   Field | Definition
+   --- | ---
+   **Approval Type** | ``Approve/Reject- First to Respond``
+   **Assigned to** | ``Add Dynamic Content -> Workflow.Requestor``
+   
+  	![dynamic](./assets/3-1_dynamic.jpg "dynamic")
 
    Approval Types:
    - First to Respond: This implies that the first approver’s outcome (Approve/Reject) is considered final.
    - Everyone must approve: This implies everyone identified as an approver must approve the request for the request to be considered approved. If one approver rejects  the request, regardless of other approvers, the request is rejected.
-9. You can also modify the template by **adding more connectors** to suit your organizational needs. Add a new step to the end of the template by selecting the **New step** button. Add steps between any already existing steps by selecting the **arrow icon** between any steps.
-10. Once you're done defining a workflow, you need to bind the workflow to a glossary hierarchy path. The binding implies that this workflow is triggered only for CUD operations within the specified glossary hierarchy path. You need to select **Apply workflow**. **Select the scopes** you want this workflow to be associated with and select **OK**.
 
-	![apply](./assets/7_apply.jpg "apply")
+9. In the **If Yes** connector below, select the three dots icon in the **Send email notification** and click **Delete**. 
+
+	![conditionYes](./assets/3-2_condition_yes.jpg "condition yes")
+	
+	![deleteActions](./assets/3-delete_action.jpg "delete actions")
+
+10. In the **If No** connector below, select the three dots icon in the **Send reject email notification** and click **Delete**. 
+
+	![conditionNo](./assets/3-3_condition_no.jpg "condition no")
+	
+	![deleteActions](./assets/3-delete_action.jpg "delete actions")
+
+9. You can also modify the template by **adding more connectors** to suit your organizational needs. Add a new step to the end of the template by selecting the **New step** button. Add steps between any already existing steps by selecting the **arrow icon** between any steps.
+
+11. Once you're done defining a workflow, you need to bind the workflow to a glossary hierarchy path. The binding implies that this workflow is triggered only for CUD operations within the specified glossary hierarchy path. You need to select **Apply workflow**. **Select the scopes** you want this workflow to be associated with and select **OK**.
+
+	![templateOptions](./assets/3-4_template_options.jpg "template options")
 
 	![scope](./assets/8_scope.jpg "scope")
+	
 11. Finally select **Save and close** to create and the workflow.
 
-	![save](./assets/9_save.jpg "save")
+	![saveAndClose](./assets/3-5_save_and_close.jpg "save and close")
+	
 12. Now, go to **Data Catalog** > **Glossary** > Create **+New** term
 
 	![newTerm](./assets/10_new_term.jpg "new term")
+	
 13. Select the **system default template**.
 
 	![default](./assets/11_default.jpg "default")
+	
 14. Define the name as `Data Analytics` and acronym as `DA` to the term. You can see that the status of the term is in `Draft`. Once you Submit for Approval. If approved, the status will be changed to Approved. If not, will be changed to Rejected.
 
 	![define](./assets/12_define.jpg "define")
+	
 15. Go to **Data Management** > **Requests & Approvals** > Select the Pending Approval Request
 
 	![approvals](./assets/13_approvals.jpg "approvals")
+	
 16. You can find the Requestor name and details of the request. Respond `Approve` . You can add optional comments.
 
 	![approve](./assets/14_approve.jpg "approve")
 
+17. Go to **Glossary** under **Data Catalog**. **Refresh** the page. And you will see the newly created term.
+
 	![approved](./assets/15_approved.jpg "approved")
 
-    You will also get an email notification asking for approval. You can either approve it in mail or in the Management Center
+    
+```diff
+!	Likewise, we can create workflows for updating, deleting and importing terms too.
+```
 
-	![emailApprove](./assets/16_email_approve.jpg "email approve")
-
-	![emailApproved](./assets/17_email_approved.jpg "email approved")
-
-    > Likewise, we can create workflows for updating, deleting and importing terms too.
 
 ### B. Workflow Runs
 
@@ -104,17 +129,17 @@ This step will take you through the creation and management of approval workflow
 
 2. This will present a window that shows all the actions that are completed, actions that are in-progress, and the next action for that workflow run.
 
-	![applyChanges](./assets/18_apply_changes.jpg "apply changes")
+	![workflowRuns](./assets/3-6_workflow_runs.jpg "workflow runs")
 
 ### C. History of Workflow requests
 
 All the completed approvals and tasks are moved to this tab in Requests and Approvals section.
 
-![workflowRuns](./assets/19_workflow_runs.jpg "workflow runs")
+![requestsAndApprovals](./assets/3-7_requests_and_approvals.jpg "requests and approvals")
 
 ### D. Workflow options
 
-![history](./assets/20_history.jpg "history")
+![authoringOptions](./assets/3-8_authoring_options.jpg "authoring options")
 
 - **Edit an existing workflow:** To modify an existing workflow, select the workflow and then select Edit in the top menu. You'll then be presented with the canvas containing workflow definition. Modify the workflow and select Save to commit changes.
 - **Disable a workflow:** To disable a workflow, select the workflow and then select Disable in the top menu. You can also disable the workflow by selecting Edit and changing the enable toggle in workflow canvas.

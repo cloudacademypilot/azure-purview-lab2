@@ -41,7 +41,7 @@ navigate to **Data map** > **Sources** > select **ADLS Gen 2 source** (*e.g.  Az
 
     ![newPolicy](./assets/10-3_new_policy.jpg "new policy")
 
-2. On the new policy page, enter the **Name** and **Description** of the policy and select the **New policy statement** button, to add a new policy.
+2. On the new policy page, enter the **Name** as **`DataPolicy`** and **Description** of the policy and select the **New policy statement** button, to add a new policy.
 
     ![policyStatement](./assets/10-4_policy_statement.jpg "policy statement")
 

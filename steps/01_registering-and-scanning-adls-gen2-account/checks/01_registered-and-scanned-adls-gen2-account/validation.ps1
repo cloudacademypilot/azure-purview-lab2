@@ -6,15 +6,24 @@ $WorkSpace = Get-AzResource -ResourceGroupName $Resourcegroupname -Resourcetype 
 $WorkSpacename = $WorkSpace.Name
 $TakeEndpoint = 'https://'+$WorkSpacename+'.purview.azure.com'
 
-$DataSource2 = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name 'Adls-Gen2'
-if($DataSource2){
+$DataSource = Get-AzPurviewDataSource -Endpoint $TakeEndpoint
+foreach($Source in $DataSource)
+{
+    if($Source.kind -like "AdlsGen2")
+    {
+        $Adlssource = $Source.name
+    }
+}
+$DataSourceValidate = Get-AzPurviewDataSource -Endpoint $TakeEndpoint -Name $Adlssource
+if($DataSourceValidate){
     Write-Host "ADLS Gen2 Account is Registered"
 }
 else{
     Write-Host "ADLS Gen2 Account is not Registered"
 }
-$SourceAdlsscan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName 'Adls-Gen2' -Name 'Scan-adls'
-if($SourceAdlsscan){
+
+$Sourcescan = Get-AzPurviewScan -Endpoint $TakeEndpoint -DataSourceName $Adlssource
+if($Sourcescan){
     Write-Host "ADLS Gen2 Scan is succeeded"
 }
 else{
