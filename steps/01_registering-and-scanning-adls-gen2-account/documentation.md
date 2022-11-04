@@ -65,7 +65,7 @@ In this module, you'll walk through how to register and scan ADLS Gen2 account. 
 
     ![addrole](./assets/4-7_add_role.jpg "addrole")
 
-3. Under **Assign access to**, select **Managed identity**, click **+ Select members**, select **Microsoft Purview account** from the **Managed Identity** drop-down menu, select the managed identity for your Microsoft Purview account (e.g. `pvlab-{randomId}-pv`), click **Select**. Finally, click **Review + assign**.
+3. Under **Assign access to**, select **Managed identity**, click **+ Select members**, select **Microsoft Purview account** from the **Managed Identity** drop-down menu, select the managed identity for your Microsoft Purview account (e.g. `pvlab-{randomId}-purview`), click **Select**. Finally, click **Review + assign**.
 
     ![managed_identity](./assets/4-8_managed_identity.jpg "managed_identity")
     
